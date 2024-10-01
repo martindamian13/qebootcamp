@@ -12,13 +12,13 @@ public class Employee {
         if (age < 0 || age > 100) {
             System.out.println("Age must be between 0 and 100");
         }
-        if (employeeNumber < 27560000 || employeeNumber > 27569999) {
-            System.out.println("Employee number must be between 27560000 and 27569999");
+        if (employeeNumber < 0 || employeeNumber > 9999) {
+            System.out.println("Employee number must be between 0 and 9999");
         }
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
-        this.employeeNumber = employeeNumber;
+        this.employeeNumber = employeeNumber + 27560000;
         this.email = generateemail(firstName, lastName);
     }
     // Getters and setters

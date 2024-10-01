@@ -15,7 +15,7 @@ public class Main {
         System.out.print("Enter age (0-100): ");
         int age = scanner.nextInt();
 
-        System.out.print("Enter employee number (27560000-27569999): ");
+        System.out.print("Enter employee number (0-9999): ");
         int employeeNumber = scanner.nextInt();
 
         Employee employee = new Employee(firstName, lastName, age, employeeNumber);
