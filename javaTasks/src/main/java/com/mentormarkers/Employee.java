@@ -21,26 +21,6 @@ public class Employee {
         this.employeeNumber = employeeNumber + 27560000;
         this.email = generateemail(firstName, lastName);
     }
-    // Getters and setters
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public int getEmployeeNumber() {
-        return employeeNumber;
-    }
-
-    public String getEmail() {
-        return email;
-    }
 
     // Method to generate email address
     public String generateemail(String firstName, String lastName) {
