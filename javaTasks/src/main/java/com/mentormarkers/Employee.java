@@ -9,11 +9,11 @@ public class Employee {
 
     // Constructor
     public Employee(String firstName, String lastName, int age, int employeeNumber) {
-        setFirstName(firstName);
-        setLastName(lastName);
-        setAge(age);
-        setEmployeeNumber(employeeNumber);
-        setEmail(firstName, lastName);
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.employeeNumber = employeeNumber + 27560000;
+        this.email = generateEmail(firstName, lastName);
     }
 
     // Getters and setters
