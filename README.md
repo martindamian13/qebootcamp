@@ -24,7 +24,7 @@ The email is automatically generated in the format `firstname.lastname@mentormar
 Enter first name: John
 Enter last name: Smith
 Enter age (0-100): 30
-Enter employee number (27560001-27569999): 27560001
+Enter employee number (1-9999): 1
 ```
 
 **Output:**
@@ -93,21 +93,3 @@ The monthly lease payment is: 427.08
 - Java 17
 - IntelliJ IDEA (or any other IDE that supports Java development)
 
-### Running the Programs
-
-To run the programs, follow these steps:
-
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   ```
-
-2. Open the project in IntelliJ.
-
-3. Navigate to the specific class you want to run and execute the main method:
-   - For **Employee Record**: `com.mentormarkers.Main`
-   - For **Lease Payment Calculator**: `com.leasecalculator.LeaseCalculator`
-
-4. Follow the on-screen prompts to provide the required inputs.
-
----
